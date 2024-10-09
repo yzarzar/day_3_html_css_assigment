@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  background-color: #ff5722;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("/images/backgoround_img.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 10px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  margin-bottom: 40px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: rgb(234, 109, 109);
+}
+
+.faq-section {
+  padding: 50px 300px;
+  text-align: center;
+}
+
+.faq-question {
+  background-color: #ff5722;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-section-description {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.underline::before,
+.underline::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: blue;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px;
+}
+
+.faq-item {
+  margin: 10px 0;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.faq-item dt {
+  display: flex;
+  background-color: #ff5722;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+.faq-item dd {
+  text-align: start;
+  padding: 20px;
+}
